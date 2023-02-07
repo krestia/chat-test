@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.xtroquizg.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>My Quiz Orbs Browser</name>
+    <description>
+        More Than Browser
+    </description>
+    <author email="dekkres@gmail.com" href="http://cordova.io">
+        WhuCorp
+    </author>
+    <content src="index.html" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <access origin="*" />
+    <preference name="permissions" value="none" />
+    <feature name="http://api.phonegap.com/1.0/network" />
+    <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="true" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="AllowInlineMediaPlayback" value="true" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <plugin name="cocoon-plugin-ads-android-admob" spec="^1.0.12" />
+    <engine name="android" spec="^7.1.4" />
+</widget>
